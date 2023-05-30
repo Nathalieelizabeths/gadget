@@ -10,9 +10,11 @@ function getProductCards(data) {
               <p>${product.price}</p>
               <button>ADD TO CART</button>
               </div>
-          `;
+              
+              `;
       productContainer.appendChild(card);
     });
+    
   }
   function getProducts() {
     fetch("https://dummyjson.com/products")
